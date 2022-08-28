@@ -24,9 +24,14 @@ body {
     border: 2px solid black;
     margin-top: 25px;
     width: 100%;
-    height: 100%;
+    height: 800px;
 }
-
+.mov-detail {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .movies {
     margin: 8px 0;
     border: 2px solid black;
@@ -34,3 +39,6 @@ body {
     height: 300px;
 
 }
+
+
+"<p><b>FBI</b> is a fast-paced drama about the inner workings of the New York Field Office of the Federal Bureau of Investigation. These first-class agents, including Special Agent Maggie Bell and her partner, Special Agent Omar Adom 'OA' Zidan, bring all their talents, intellect and technical expertise on major cases in order to keep New York and the country safe.</p>"
