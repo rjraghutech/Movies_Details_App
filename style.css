@@ -1,14 +1,33 @@
+body {
+    /* background-color: black; */
+    width: 100%;
+}
 
+.search-cont {
+    display: flex;
+    justify-content: center;
+}
 
 #search {
-    border: 3px solid white;
+    border: 3px solid aqua;
+    box-shadow: 4px 4px 10px aqua;    
     border-radius: 25px;
     padding: 8px 15px;
     font-weight: 600;
     font-size: medium;
-    
 }
 
-#search:hover {
-    box-shadow: 5px 5px 5px aqua;
+.movie-cont {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin-top: 25px;
+}
+
+.movies {
+    margin: 8px 0;
+    border: 2px solid black;
+    width: 24%;
+    height: 300px;
+
 }
